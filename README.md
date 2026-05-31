@@ -147,7 +147,7 @@ When run as `__main__`, stdout is redirected to `output.txt`.
 
 **`dashboard.js`** reads those globals and renders three tabs:
 - *Data Overview* — filterable paginated table of relative frequencies per sample and population (sample, total_count, population, count, percentage).
-- *Statistical Analysis* — Mann-Whitney p-value summary, per-population boxplot and scatter plot with trendlines.
+- *Statistical Analysis* — Mann-Whitney p-value summary (chosen because we are determining if there is a significant difference between two independent groups), per-population boxplot, and scatter plot with trendlines.
 - *Subset Analysis* — KPI cards, samples per project, and response/sex breakdowns for the baseline cohort.
 
 **`dashboard.css`** contains all styles. No inline styles are used in the HTML — hidden tabs use a `.tab-hidden` class toggled by JavaScript.
